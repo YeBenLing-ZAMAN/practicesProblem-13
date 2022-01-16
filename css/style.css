@@ -44,6 +44,9 @@
 .navbar>ul{
     display: flex;
 }
+.navbar>ul :hover{
+    color: rgb(64, 120, 241);
+}
 /*--------------- icon design-------------- */
 
 .icon{
