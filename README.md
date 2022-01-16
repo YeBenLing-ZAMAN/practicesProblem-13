@@ -28,7 +28,7 @@
         max-width: 576px;
  background:gray;
     }
-}
+} 
 /* Big Mobile  = (576-420) = Extra-SM */
 @media (max-width: 576px) {
      .container {
