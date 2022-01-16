@@ -195,6 +195,7 @@
 .inline-icon{
     display: inline;
     color: rgb(66, 250, 189);
+    margin-right: 5px;
 }
 .check-mark p{
     display: inline;
