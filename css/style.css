@@ -23,7 +23,9 @@
     font-size: 35px;
     font-weight: 700;
     cursor: pointer;
-
+}
+.navber-logo>span{
+    color:rgb(64, 120, 241) ;
 }
 .navbar>ul>li{
     list-style: none;
@@ -32,12 +34,17 @@
     text-decoration: none;
     font-size: 20px;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
     padding: 10px 30px;
+}
+.navbar>ul>li>a:hover{
+    color: rgb(64, 120, 241);
 }
 .navbar>ul{
     display: flex;
 }
+/*--------------- icon design-------------- */
+
 .icon{
     display: flex;
     cursor: pointer;
@@ -47,7 +54,8 @@
     font-size:20px;
 }
 
-/*----------------      bannar styles
+/*----------------      
+    bannar styles
 ------------------ */
 .bannar{
     display: flex;
@@ -86,17 +94,19 @@
 }
 .bannar-button:hover{
     border: 4px solid black;
-    background-color:aquamarine;
-    transition: 1s;
-
+    background-color:rgb(37, 223, 161);
+    transition: .5s;
+    
 }
 .bannar-button a{
     text-decoration: none;
+    text-transform:capitalize;
     color: black;
 }
 
 
-/*------------------            topics coverd
+/*------------------            
+    topics coverd
 -------------------- */
 .topics-covered{
     margin: 0px auto;
@@ -114,7 +124,7 @@
 .line{
     width: 300px;
     height: 3px;
-    background-color: black;
+    background-color: rgb(51, 241, 108);
     margin: 0px 10px;
 }
 .topic-text{
@@ -220,14 +230,16 @@
     position: relative;
 }
 
-
-
+/* bg attactment fixed use kora hoyche arki */
+/* size is very improtant */
 .scroll-section{
     width: 100%;
     height: 900px;
-    background-image: url('../image/bgi.jpg');
+    background-image: url('../image/bgc.jpg');
     background-repeat: no-repeat;
     background-size: 100% 900px;
+    /* size ta same deoya best*/
+    background-attachment: fixed;
 }
 
 .scroll-div{
@@ -285,4 +297,91 @@
     font-weight: 600;
     margin: 20px 0px;
     color: rgb(6, 165, 112);
+}
+
+
+/*---------------
+    reader words
+----------------- */
+.readers{
+    margin: 0 auto;
+    width: 1200px;
+    /* change korte hobe */
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+}
+.reader{
+    width: 550px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reader img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 1px 1px 10px green;
+}
+
+.reader-word{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+    box-shadow: 1px 5px 20px black;
+    margin-left: -25px;
+}
+.reader-word h1{
+    font-size: 25px;
+    color: rgb(6, 165, 112);
+    margin-top: 20px;
+}
+
+
+
+/* --------------------
+        footer
+----------------------- */
+
+
+.footer-section{
+    width: 95%px;
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(20, 189, 132, 0.712);
+    color: white;
+    padding: 100px 100px;
+    
+}
+footer h1{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 36px;
+   
+}
+footer p{
+    font-size: 16px;
+}
+
+.social-media{
+    margin:10px 0px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.social-media img{
+    width: 32px;
+    height: 32px;
+    padding: 5px 10px;
 }
