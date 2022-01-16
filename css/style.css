@@ -98,6 +98,12 @@
 
 /*------------------            topics coverd
 -------------------- */
+.topics-covered{
+    margin: 0px auto;
+    background-color: #f8faf9;
+    border:1px solid #f8faf9;
+    
+}
 .topic-text{
     width: 60%;
     margin: 40px auto;
@@ -136,9 +142,141 @@
     align-items: center;
     border-radius: 5px;
 }
+.topic-img img{
+    width: 300px;
+    height: 350px;
+}
 
 .topics-icon{
     font-size: 100px;
     display: block;
+}
 
+/*----------------
+     free previews
+------------------ */
+
+.free-perview{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    padding: 20px 30px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-pervies-text h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.free-pervies-text p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin:20px 0px;
+}
+.check-mark>div{
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+
+.inline-icon{
+    display: inline;
+    color: rgb(66, 250, 189);
+}
+.check-mark p{
+    display: inline;
+    font-weight: 400;
+    font-size: 18opx;
+}
+.free-button a{
+    text-decoration: none;
+}
+
+.free-button{
+    margin: 30px 0px;
+    outline: 0;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: 4px solid rgb(41, 250, 180);
+    background-color: rgb(41, 250, 180);
+    border-radius: 35px;
+    color: white;
+}
+.free-button:hover{
+    border: 4px solid rgb(41, 250, 180);
+    background-color:white;
+    transition: .5s;
+    color: rgb(41, 250, 180);
+}
+
+/*-----------------------
+    scroll-section
+------------------------- */
+
+.scroll-image{
+    width: 100%;
+    height: 700px;
+    background-image: url('../image/bgi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+.scroll-div{
+    width: 70%;
+    height: 900px;
+    background-color: beige;
+    position: relative;
+    border: 2px solid black;
+    margin: 0px auto;
+}
+.author-img{
+    position:absolute;
+    top: 20px;
+}
+.author-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+}
+.author-text{
+    width: 604px;
+    margin: 90px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.author-text img{
+    width: 304px;
+    height: 427px;
+    margin: 0px auto;
+}
+
+.author-details{
+    width: 604px;
+    height: 300px;
+}
+
+.author-details h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.author-details p{
+    font-size: 18px;
+    line-height: 1.2;
+}
+.author-details h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+    color: rgb(6, 165, 112);
 }
