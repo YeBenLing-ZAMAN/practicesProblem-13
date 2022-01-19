@@ -36,7 +36,7 @@
  background:purple;
     }
 }
-/* Small Mobile = (420-320) = Extra-SM */
+/* Small Mobile = (420-320) = Extra-SM  */
 @media (max-width: 420px) {
   body{
  background:pink;
